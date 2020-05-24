@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>MyWeather</title>
+    </head>
+    <body>
+        <div class="nav">
+            <h1 id="title">MyWeather</h1>
+            <div id="searchContainer">
+                <input class="searchControl" type="text" placeholder="City Name or Zipcode" id="searchInput">
+                <button class="searchControl" id="searchBtn">Search</button>
+            </div>
+        </div>
+        <div class="Info">
+        <div id="weatherContainer">
+            <div id="weatherDescription">
+                <h1 id="cityHeader"></h1>
+                <div id="weatherMain">
+                    <div id="temperature"></div>
+                    <div class="minmax">
+                        <h2>Min </h3><div id="temp_min"></div>
+                   
+                        <h2>Max </h3><div id="temp_max"></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="bottomDetails">
+                    <div class="condition">
+                        <div id="weatherDescriptionHeader"></div>
+                        <div><img id="documentIconImg"></div>
+                    </div>
+                    <div id="windSpeed" class="secondDescription"></div>
+                    <div id="humidity" class="secondDescription"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+            <div class="future">
+                <div id="DataTime">
+                    <div id="Futuretemperature"></div>
+                </div>
+            </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
