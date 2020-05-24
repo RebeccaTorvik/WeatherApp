@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    background-image: url("/images/default.jpg");
+    background-size: 2500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color:#121212;
+}
+
+#title {
+    color:lightskyblue;
+}
+
+#searchContainer {
+    /*  padding: 15px;
+        position: absolute; */
+
+    }
+    
+#searchContainer input {
+    width: 340px;
+    height: 20px;
+    text-indent: 15px;
+ 
+}
+
+#searchContainer button {
+    background-color: lightskyblue;
+    width: 80px;
+    height: 30px;
+    color: black;
+
+}
+
+.searchControl {
+    border-radius: 25px;
+    padding: 5px;
+    border: none
+}
+
+.Info {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: white;
+}
+
+#weatherContainer {
+    background-color: rgba(0, 0, 0, 0.25);    
+    padding: 90px;
+    border-radius: 10px;
+   /* position: absolute; */
+    display: flex;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+#weatherContainer h1 {
+    margin: 5px;
+    padding-bottom: 20px;
+    font-size: 42px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+
+
+
+#weatherDescriptionHeader {
+    font-size: 28px;
+}
+
+#temperature {
+    font-size: 80px;
+    padding-top: 15px;
+    
+}
+
+
+.minmax {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+
+}
+
+#temp_min {
+    margin-right: 10%;
+    font-size: 25px;
+}
+
+#temp_max {
+    font-size: 25px;
+}
+
+.minmax h2 {
+    margin-right: 2%;
+}
+
+.condition {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+#windSpeed {
+    margin-bottom: 10px;
+}
+
+.secondDescription {
+    font-size: 16px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
